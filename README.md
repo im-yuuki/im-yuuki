@@ -3,7 +3,6 @@
 <br/>
 <br/>
 <img src="assets/about-me-banner.png" width="450" />
-<img src="assets/side_image.png" width="350" align="right" />
 
 - 🎓 Student from VNU-UET, Vietnam. <img src="https://i.imgur.com/3KyfuCu.png" alt="." width="16" height="16"/>
 - 🥰 Found my passion for computers when I was just 5 years old.
@@ -14,6 +13,7 @@
 - 🎯 Aiming to land a job at a Big Tech company by the age of 20 *(shh, don't tell my friends about that, I'm just a bit dreamy)*
 
 <br/>
+<img src="assets/side_image.png" width="350" align="right" />
 
 ## 📬 Contact information
 - 📧 Email: me@yuuki.software
