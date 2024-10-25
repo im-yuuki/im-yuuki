@@ -1,10 +1,8 @@
 # 💤 Hello! I'm Yuuki, 18 years old.
-
-<br/>
 <br/>
 <img src="assets/about-me-banner.png" width="450" />
 
-- 🎓 Student from VNU-UET, Vietnam. <img src="https://i.imgur.com/3KyfuCu.png" alt="." width="16" height="16"/>
+- 🎓 Student from <img src="https://upload.wikimedia.org/wikipedia/vi/b/bf/Logo_HUET.svg" alt="." width="16" height="16"/> VNU-UET, <img src="https://i.imgur.com/3KyfuCu.png" alt="." width="16" height="16"/> Vietnam.
 - 🥰 Found my passion for computers when I was just 5 years old.
 - 🌱 Started learning application programming since December 2021.
 - ✨ Won 2nd prize in the Nghe An Provincial High School Excellent Student Selection Exam for Information Technology.
@@ -12,12 +10,12 @@
 - 🎮 I play a few games. Some of them are <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Osu%21_Logo_2016.svg/1200px-Osu%21_Logo_2016.svg.png" alt="." width="16" height="16"/> [osu! (June8th)](https://osu.ppy.sh/users/33052231), <img src="https://static.wikia.nocookie.net/gensin-impact/images/8/80/Genshin_Impact.png" alt="." width="16" height="16"/> Genshin Impact (Asia - UID: 859325985).
 - 🎯 Aiming to land a job at a Big Tech company by the age of 20 *(shh, don't tell my friends about that, I'm just a bit dreamy)*
 
-<br/>
 <img src="assets/side_image.png" width="350" align="right" />
 
 ## 📬 Contact information
 - 📧 Email: me@yuuki.software
 - 🌐 Facebook: [Yuuki](https://facebook.com/yuuki.dev)
+- 💬 Discord: [im.yuuki](https://discord.com/users/1159648179294322700)
 
 ## 📌 Discord Presence
 ![Discord Presence](https://lanyard.cnrad.dev/api/1159648179294322700?showDisplayName=true&bg=000000&animated=true)
@@ -81,7 +79,5 @@
 </div>
 
 ## 🥰 Thanks for reading my profile <3
-
-<br/>
-
+[![](https://visitcount.itsvg.in/api?id=im-yuuki&label=Visitors&color=10&icon=7&pretty=false)](https://visitcount.itsvg.in)
 
