@@ -79,5 +79,5 @@
 </div>
 
 ## 🥰 Thanks for reading my profile <3
-[![](https://visitcount.itsvg.in/api?id=im-yuuki&label=Visitors&color=10&icon=7&pretty=false)](https://visitcount.itsvg.in)
+![Visitors](https://visitcount.itsvg.in/api?id=im-yuuki&label=Visitors&color=10&icon=7&pretty=false)
 
