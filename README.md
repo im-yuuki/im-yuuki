@@ -13,7 +13,7 @@
 <img src="assets/side_image.png" width="350" align="right" />
 
 ## 📬 Contact information
-- 📧 Email: me@yuuki.software
+- 📧 Email: me@june8th.eu.org
 - 🌐 Facebook: [Yuuki](https://facebook.com/yuuki.dev)
 - 💬 Discord: [im.yuuki](https://discord.com/users/1159648179294322700)
 
