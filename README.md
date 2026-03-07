@@ -10,19 +10,20 @@
 - 🎮 I play a few games. Some of them are <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Osu%21_Logo_2016.svg/1200px-Osu%21_Logo_2016.svg.png" alt="." width="16" height="16"/> [osu! (June8th)](https://osu.ppy.sh/users/33052231), <img src="https://static.wikia.nocookie.net/gensin-impact/images/8/80/Genshin_Impact.png" alt="." width="16" height="16"/> Genshin Impact (Asia - UID: 859325985).
 - 🎯 Aiming to land a job at a Big Tech company by the age of 20 *(shh, don't tell my friends about that, I'm just a bit dreamy)*
 
-<img src="assets/side_image.png" width="350" align="right" />
+<img src="assets/side_image.png" width="280" align="right" />
 
 ## 📬 Contact information
-- 📧 Email: me@june8th.eu.org
-- 🌐 Facebook: [Yuuki](https://facebook.com/yuuki.dev)
+- 📧 Email: [me@june8th.eu.org](mailto:me@june8th.eu.org)
+- 🥺 Facebook: [Yuuki](https://facebook.com/yuuki.dev)
 - 💬 Discord: [im.yuuki](https://discord.com/users/1159648179294322700)
+- 🌐 Website: [https://june8th.eu.org](https://june8th.eu.org)
 
 ## 📌 Discord Presence
 ![Discord Presence](https://lanyard.cnrad.dev/api/1159648179294322700?showDisplayName=true&bg=000000&animated=true)
 
 ## ✈️ Statistics
-<a><img height=160 align="center" src="https://github-readme-stats--im-yuuki.vercel.app/api?username=im-yuuki&show_icons=true&theme=dark" /></a>
-<a><img height=160 align="center" src="https://github-readme-stats--im-yuuki.vercel.app/api/top-langs/?username=im-yuuki&layout=compact&theme=dark&langs_count=8&size_weight=0&count_weight=1" /></a>
+<a><img height=180 align="center" src="https://github-readme-stats--im-yuuki.vercel.app/api?username=im-yuuki&show_icons=true&theme=dark" /></a>
+<a><img height=180 align="center" src="https://github-readme-stats--im-yuuki.vercel.app/api/top-langs/?username=im-yuuki&layout=compact&theme=dark&langs_count=8&size_weight=0&count_weight=1" /></a>
 
 ## 😛 Technologies I've used, learned or had experiences
 <div align="center">
