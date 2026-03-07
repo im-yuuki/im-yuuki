@@ -21,8 +21,8 @@
 ![Discord Presence](https://lanyard.cnrad.dev/api/1159648179294322700?showDisplayName=true&bg=000000&animated=true)
 
 ## ✈️ Statistics
-<a><img height=200 align="center" src="https://github-readme-stats--im-yuuki.vercel.app/api?username=im-yuuki&show_icons=true&theme=dark" /></a>
-<a><img height=200 align="center" src="https://github-readme-stats--im-yuuki.vercel.app/api/top-langs/?username=im-yuuki&layout=compact&theme=dark&langs_count=8&size_weight=0&count_weight=1" /></a>
+<a><img height=160 align="center" src="https://github-readme-stats--im-yuuki.vercel.app/api?username=im-yuuki&show_icons=true&theme=dark" /></a>
+<a><img height=160 align="center" src="https://github-readme-stats--im-yuuki.vercel.app/api/top-langs/?username=im-yuuki&layout=compact&theme=dark&langs_count=8&size_weight=0&count_weight=1" /></a>
 
 ## 😛 Technologies I've used, learned or had experiences
 <div align="center">
