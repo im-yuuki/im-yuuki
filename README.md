@@ -73,3 +73,5 @@
 
 ## 🥰 Thanks for reading my profile 💖
 
+![GitHub Stars](https://shields.io/github/stars/im-yuuki)
+![Profile Views](https://komarev.com/ghpvc/?username=im-yuuki&color=ff69b4)
