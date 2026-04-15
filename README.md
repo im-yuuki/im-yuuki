@@ -1,6 +1,6 @@
 # 💤 Hello! I'm Yuuki, 20 years old.
 
-<img src="assets/about-me-banner.png" width="800" />
+<img src="assets/about-me-banner.png" width="full" />
 
 - 🎓 Student from [VNU University of Engineering and Technology](https://uet.vnu.edu.vn/en/), 🇻🇳 Vietnam.
 - 🥰 Found my passion for computers when I was 5 years old.
@@ -14,7 +14,7 @@
 - **September 2024**: Admitted to IT program at VNU University of Engineering and Technology.
 - **October 2023**: Won 2nd prize in the Nghe An provincial-level competition for outstanding computer science students.
 
-<img src="assets/side_image.png" width="280" align="right" />
+<img src="assets/side_image.png" width="360" align="right" />
 
 ## 📬 Contact information
 - 📧 Email: [me@june8th.eu.org](mailto:me@june8th.eu.org)
@@ -26,7 +26,7 @@
 ![Discord Presence](https://lanyard.cnrad.dev/api/1159648179294322700?showDisplayName=true&bg=000000&animated=true)
 
 ## ✈️ Statistics
-  <div align="center">
+<div align="center">
   <img height=180 src="https://github-readme-stats--im-yuuki.vercel.app/api?username=im-yuuki&show_icons=true&theme=dark" />
   <img width="10" />
   <img height=180 src="https://github-readme-stats--im-yuuki.vercel.app/api/top-langs/?username=im-yuuki&layout=compact&theme=dark&langs_count=8&size_weight=0&count_weight=1" />
