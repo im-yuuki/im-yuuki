@@ -10,12 +10,12 @@
 - 🎯 Aiming to land a job at a Big Tech company by the age of 25 *(shh, don't tell my friends about that, I'm just a bit dreamy)*
 - 😔 I don't hate AI, I hate low quality products, who overuse AI even though they don't understand anything at all!
 
+<img src="assets/side_image.png" width="360" align="right" />
+
 ## 📆 Experience & Achievements
 - **April 2026**: Worked at Center of Digital University, UET.
 - **September 2024**: Admitted to IT program at VNU University of Engineering and Technology.
 - **October 2023**: Won 2nd prize in the Nghe An provincial-level competition for outstanding computer science students.
-
-<img src="assets/side_image.png" width="360" align="right" />
 
 ## 📬 Contact information
 - 💌 Email: [admin@june8th.me](mailto:admin@june8th.me), [me@june8th.eu.org](mailto:me@june8th.eu.org)
