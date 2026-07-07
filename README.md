@@ -36,11 +36,11 @@
 ## ✨ Technologies I've learned or worked on
 <div align="center">
   <p><b><i>programming languages</i></b></p>
-  <img src="https://skillicons.dev/icons?i=c,cpp,rust,arduino,html,js,ts,java,kotlin,py,bash" height="40"/>   
+  <img src="https://skillicons.dev/icons?i=c,cpp,rust,arduino,html,js,ts,java,swift,py,bash" height="40"/>   
   <br />
   
   <p><b><i>frameworks & databases</i></b></p>
-  <img src="https://skillicons.dev/icons?i=react,vue,tailwind,selenium,spring,mysql,postgres,mongo,redis,elasticsearch,vite,nginx,aws" height="40"/>   
+  <img src="https://skillicons.dev/icons?i=react,vue,tailwind,selenium,spring,mysql,postgres,mongo,redis,elasticsearch,vite,ansible,nginx" height="40"/>   
   <br />
   
   <p><b><i>IDEs & devtools</i></b></p>
