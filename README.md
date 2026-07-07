@@ -44,11 +44,11 @@
   <br />
   
   <p><b><i>IDEs & devtools</i></b></p>
-  <img src="https://skillicons.dev/icons?i=androidstudio,vim,idea,pycharm,vscode" height="40"/>   
+  <img src="https://skillicons.dev/icons?i=androidstudio,vim,idea,pycharm,vscode,postman,git,figma" height="40"/>   
   <br />
   
   <p><b><i>platforms & utilities</i></b></p>
-  <img src="https://skillicons.dev/icons?i=apple,debian,redhat,windows,raspberrypi,postman,prometheus,firebase,git,githubactions,docker,cloudflare,stackoverflow" height="40"/>
+  <img src="https://skillicons.dev/icons?i=apple,debian,redhat,windows,raspberrypi,prometheus,firebase,githubactions,docker,kubernetes,cloudflare,stackoverflow" height="40"/>
   <br />
   
 </div>
