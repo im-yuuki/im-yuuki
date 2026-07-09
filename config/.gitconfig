@@ -1,0 +1,10 @@
+[user]
+	name = Yuuki
+	email = me@june8th.eu.org
+	signingkey = 50197C2A59ABB90D4AB4899060CDE9DE02395FC7
+[commit]
+	gpgSign = true
+[tag]
+	gpgSign = true
+[gpg]
+	program = /opt/homebrew/bin/gpg # change this according to your platform!
