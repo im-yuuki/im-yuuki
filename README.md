@@ -12,11 +12,6 @@
 
 <img src="assets/side_image.png" width="360" align="right" />
 
-## 📆 Experience & Achievements
-- **April 2026**: Worked at Center of Digital University, UET.
-- **September 2024**: Admitted to IT program at VNU University of Engineering and Technology.
-- **October 2023**: Won 2nd prize in the Nghe An provincial-level competition for outstanding computer science students.
-
 ## 📬 Contact information
 - 💌 Email: [admin@june8th.me](mailto:admin@june8th.me), [me@june8th.eu.org](mailto:me@june8th.eu.org)
 - 🥺 Facebook: [Yuuki](https://www.facebook.com/june8th.dan)
@@ -25,6 +20,14 @@
 
 ## 📌 Activity
 ![Discord Presence](https://lanyard.cnrad.dev/api/1159648179294322700?showDisplayName=true&bg=000000&animated=true)
+
+## 📆 Experience & Achievements
+| Year | Month | Experience / Achievements |
+| --- | --- | --- |
+| 2026 | July | Participated in [Vietnam AI Innovation Challenge](https://www.vietnamaichallenge.com/) Hackathon contest | 
+| 2026 | April | Started working as intern at [Center of Digital University, VNU-UET](https://cdu.uet.edu.vn/) |
+| 2024 | September | Admitted to IT program at [VNU University of Engineering and Technology](https://uet.vnu.edu.vn/en/) |
+| 2023 | October | Won 2nd prize in the Nghe An provincial-level competition for outstanding computer science students |
 
 ## ✈️ Statistics
 <div align="center">
@@ -50,7 +53,6 @@
   <p><b><i>platforms & utilities</i></b></p>
   <img src="https://skillicons.dev/icons?i=apple,debian,redhat,windows,raspberrypi,prometheus,firebase,githubactions,docker,kubernetes,cloudflare,stackoverflow" height="40"/>
   <br />
-  
 </div>
 
 ## 🥰 Thanks for reading my profile 💖
