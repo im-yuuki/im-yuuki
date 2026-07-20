@@ -1,4 +1,302 @@
 {
   "$schema": "https://opencode.ai/config.json",
-  "plugin": ["opencode-discord-presence"]
+  "plugin": [
+    "opencode-discord-presence",
+    "opencode-gemini-auth",
+    "opencode-background-agents",
+  ],
+  "mcp": {
+    "playwright": {
+      "type": "local",
+      "command": ["npx", "@playwright/mcp@latest"],
+      "enabled": true,
+    },
+    "context7": {
+      "type": "local",
+      "command": ["npx", "-y", "@upstash/context7-mcp"],
+      "enabled": true,
+    },
+    "github": {
+      "type": "local",
+      "command": ["npx", "-y", "@modelcontextprotocol/server-github"],
+      // "environment": { "GITHUB_PERSONAL_ACCESS_TOKEN": "your_token" },
+      "enabled": true,
+    },
+    "sequential-thinking": {
+      "type": "local",
+      "command": ["npx", "-y", "@modelcontextprotocol/server-sequential-thinking"],
+      "enabled": true,
+    },
+  },
+  "disabled_providers": [],
+  "permission": {
+    "*": "allow",
+    "bash": {
+      "*": "allow",
+      "dd *": "ask",
+      "chmod *": "ask",
+      "curl *": "ask",
+      "docker *": "ask",
+      "git branch -d *": "ask",
+      "git branch -D *": "ask",
+      "git clean *": "ask",
+      "git push": "ask",
+      "git pull": "ask",
+      "git rebase *": "ask",
+      "kill *": "ask",
+      "killall *": "ask",
+      "npm install *": "ask",
+      "npm run publish": "ask",
+      "pip install *": "ask",
+      "brew install *": "ask",
+      "brew upgrade *": "ask",
+      "rsync *": "ask",
+      "wget *": "ask",
+      "git reset --hard *": "ask",
+      "chown *": "deny",
+      "fdisk *": "deny",
+      "format *": "deny",
+      "mkfs *": "deny",
+      "parted *": "deny",
+      "reboot": "deny",
+      "shutdown": "deny",
+      "ssh *": "deny",
+      "scp *": "deny",
+      "sudo *": "deny",
+    },
+    "doom_loop": "ask",
+    "external_directory": "ask",
+  },
+  "provider": {
+    "fptcloud-ai": {
+      "name": "FPTCLOUD AI",
+      "npm": "@ai-sdk/openai-compatible",
+      "options": {
+        "baseURL": "https://mkp-api.fptcloud.com/v1",
+        "apiKey": "YOUR_API_KEY",
+      },
+      "models": {
+        "DeepSeek-V4-Flash": {
+          "name": "DeepSeek-V4-Flash",
+          "attachment": false,
+          "temperature": true,
+          "tool_call": true,
+          "cost": {
+            "input": 0.14,
+            "output": 0.28,
+          },
+          "limit": {
+            "context": 200000,
+            "output": 200000,
+          },
+          "modalities": {
+            "input": ["text"],
+            "output": ["text"],
+          },
+        },
+        "Qwen3.6-27B": {
+          "name": "Qwen3.6-27B",
+          "attachment": false,
+          "temperature": true,
+          "tool_call": true,
+          "cost": {
+            "input": 0.3,
+            "output": 3.25,
+          },
+          "limit": {
+            "context": 262144,
+            "output": 262144,
+          },
+          "modalities": {
+            "input": ["text"],
+            "output": ["text"],
+          },
+        },
+        "GLM-5.1": {
+          "name": "GLM-5.1",
+          "attachment": false,
+          "temperature": true,
+          "tool_call": true,
+          "cost": {
+            "input": 1.4,
+            "output": 4.4,
+          },
+          "limit": {
+            "context": 128000,
+            "output": 128000,
+          },
+          "modalities": {
+            "input": ["text"],
+            "output": ["text"],
+          },
+        },
+        "GLM-5.2": {
+          "name": "GLM-5.2",
+          "attachment": false,
+          "temperature": true,
+          "tool_call": true,
+          "cost": {
+            "input": 1.4,
+            "output": 4.4,
+          },
+          "limit": {
+            "context": 1000000,
+            "output": 128000,
+          },
+          "modalities": {
+            "input": ["text"],
+            "output": ["text"],
+          },
+        },
+        "Llama-3.3-70B-Instruct": {
+          "name": "Llama-3.3-70B-Instruct",
+          "attachment": false,
+          "temperature": true,
+          "tool_call": true,
+          "cost": {
+            "input": 0.21,
+            "output": 0.45,
+          },
+          "limit": {
+            "context": 32000,
+            "output": 32000,
+          },
+          "modalities": {
+            "input": ["text"],
+            "output": ["text"],
+          },
+        },
+        "Qwen2.5-VL-7B-Instruct": {
+          "name": "Qwen2.5-VL-7B-Instruct",
+          "attachment": true,
+          "temperature": true,
+          "tool_call": false,
+          "cost": {
+            "input": 0.77,
+            "output": 0.77,
+          },
+          "limit": {
+            "context": 33000,
+            "output": 33000,
+          },
+          "modalities": {
+            "input": ["image", "text"],
+            "output": ["text"],
+          },
+        },
+        "SaoLa3.1-medium": {
+          "name": "SaoLa3.1-medium",
+          "attachment": false,
+          "temperature": true,
+          "tool_call": true,
+          "cost": {
+            "input": 0.17,
+            "output": 0.19,
+          },
+          "limit": {
+            "context": 32000,
+            "output": 32000,
+          },
+          "modalities": {
+            "input": ["text"],
+            "output": ["text"],
+          },
+        },
+        "gemma-3-27b-it": {
+          "name": "gemma-3-27b-it",
+          "attachment": true,
+          "temperature": true,
+          "tool_call": true,
+          "cost": {
+            "input": 0.11,
+            "output": 0.17,
+          },
+          "limit": {
+            "context": 128000,
+            "output": 128000,
+          },
+          "modalities": {
+            "input": ["image", "text"],
+            "output": ["text"],
+          },
+        },
+        "gemma-4-26B-A4B-it": {
+          "name": "gemma-4-26B-A4B-it",
+          "attachment": true,
+          "temperature": true,
+          "tool_call": true,
+          "cost": {
+            "input": 0.14,
+            "output": 0.4,
+          },
+          "limit": {
+            "context": 262000,
+            "output": 262000,
+          },
+          "modalities": {
+            "input": ["image", "text"],
+            "output": ["text"],
+          },
+        },
+        "gemma-4-31B-it": {
+          "name": "gemma-4-31B-it",
+          "attachment": true,
+          "temperature": true,
+          "tool_call": true,
+          "cost": {
+            "input": 0.15,
+            "output": 0.45,
+          },
+          "limit": {
+            "context": 262000,
+            "output": 262000,
+          },
+          "modalities": {
+            "input": ["image", "text"],
+            "output": ["text"],
+          },
+        },
+        "gpt-oss-120b": {
+          "name": "gpt-oss-120b",
+          "attachment": false,
+          "temperature": true,
+          "tool_call": true,
+          "cost": {
+            "input": 0.14,
+            "output": 0.61,
+          },
+          "limit": {
+            "context": 128000,
+            "output": 128000,
+          },
+          "modalities": {
+            "input": ["text"],
+            "output": ["text"],
+          },
+        },
+        "gpt-oss-20b": {
+          "name": "gpt-oss-20b",
+          "attachment": false,
+          "temperature": true,
+          "tool_call": true,
+          "cost": {
+            "input": 0.05,
+            "output": 0.2,
+          },
+          "limit": {
+            "context": 128000,
+            "output": 128000,
+          },
+          "modalities": {
+            "input": ["text"],
+            "output": ["text"],
+          },
+        },
+      },
+    },
+  },
+  "tools": {
+    "websearch": true,
+    "codesearch": true,
+  },
 }
