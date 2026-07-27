@@ -34,6 +34,21 @@ export default defineConfig({
           base: "/docs/",
           link: "."
         },
+        {
+          text: "Docker",
+          base: "/docs/docker/",
+          collapsed: false,
+          items: [
+            {
+              text: "Install on Debian-based Linux",
+              link: "install-debian.md",
+            },
+            {
+              text: "Install on Red Hat-based Linux",
+              link: "install-redhat.md",
+            },
+          ],
+        },
       ],
       "/cdu-uet/": [
         {
