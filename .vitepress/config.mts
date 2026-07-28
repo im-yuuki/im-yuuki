@@ -35,6 +35,11 @@ export default defineConfig({
           link: "."
         },
         {
+          text: "RustDesk",
+          base: "/docs/",
+          link: "rustdesk.md"
+        },
+        {
           text: "Docker",
           base: "/docs/docker/",
           collapsed: false,
