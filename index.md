@@ -4,28 +4,31 @@ layout: home
 
 hero:
   name: "Hello!"
-  text: "Yuuki's Documents"
-  tagline: "various documentations for what I'm working on!"
+  text: "LunaDocs"
+  tagline: "welcome to my home on the internet!"
   image:
     src: /logo.png
   actions:
     - theme: brand
+      text: About me
+      link: /README.md
+    - theme: alt
       text: Documents
       link: /docs/
     - theme: alt
-      text: Resources
+      text: Public Files
       link: https://public.june8th.eu.org/
 
 features:
-  - icon: 1️⃣
-    title: Feature A
-    details: 123
-  - icon: 2️⃣
-    title: Feature B
-    details: 456
-  - icon: 3️⃣
-    title: Feature C
-    details: 789
+  - icon: 📚
+    title: Documents
+    details: various guides about things I'm worked on
+  - icon: 📝
+    title: Presets
+    details: configuration files for reference
+  - icon: ✨
+    title: Experience
+    details: sharing how I resolve problems during work
 ---
 
 <br />

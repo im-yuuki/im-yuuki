@@ -1,6 +1,6 @@
 # 💤 Hello! I'm Yuuki, 20 years old.
 
-<img src="assets/about-me-banner.png" width="full" />
+<img src="./assets/about-me-banner.png" width="full" />
 
 - 🎓 Student from [VNU University of Engineering and Technology](https://uet.vnu.edu.vn/en/), 🇻🇳 Vietnam.
 - 🥰 Found my passion for computers when I was 5 years old.
@@ -10,7 +10,7 @@
 - 🎯 Aiming to land a job at a Big Tech company by the age of 25 *(shh, don't tell my friends about that, I'm just a bit dreamy)*
 - 😔 I don't hate AI, I hate low quality products, who overuse AI even though they don't understand anything at all!
 
-<img src="assets/side_image.png" width="360" align="right" />
+<img src="./assets/side_image.png" width="360" align="right" />
 
 ## 📬 Contact information
 - 💌 Email: [admin@june8th.me](mailto:admin@june8th.me), [me@june8th.eu.org](mailto:me@june8th.eu.org)
@@ -54,8 +54,10 @@
   <img src="https://skillicons.dev/icons?i=apple,debian,redhat,windows,raspberrypi,prometheus,firebase,githubactions,docker,kubernetes,cloudflare,stackoverflow" height="40"/>
   <br />
 </div>
+<br />
 
-## 🥰 Thanks for reading my profile 💖
 
-![GitHub Stars](https://shields.io/github/stars/im-yuuki)
-![Profile Views](https://komarev.com/ghpvc/?username=im-yuuki&color=ff69b4)
+> ***Thanks for reading my profile*** 💖
+> 
+> ![GitHub Stars](https://shields.io/github/stars/im-yuuki)
+> ![Profile Views](https://komarev.com/ghpvc/?username=im-yuuki&color=ff69b4)

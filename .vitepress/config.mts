@@ -1,11 +1,8 @@
 import { defineConfig } from "vitepress";
-import { readFileSync } from "node:fs";
-
-const emailIcon = readFileSync(new URL("../public/icons/email.svg", import.meta.url), "utf-8");
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Yuuki's Documents",
+  title: "LunaDocs",
   description: "various documentations for what I'm working on!",
   head: [["link", { rel: "icon", href: "/favicon.ico" }]],
   locales: {
@@ -16,15 +13,28 @@ export default defineConfig({
     vi: {
       label: "Tiếng Việt",
       lang: "vi-VN",
-    }
+    },
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Home", link: "/" },
+      { text: "About me", link: "/README.md" },
       { text: "Documents", link: "/docs/" },
-      { text: "CDU - UET", link: "/cdu-uet/" },
-      { text: "Resources", link: "https://public.june8th.eu.org/" },
+      { text: "Work", link: "/work/" },
+      {
+        text: "Resources",
+        items: [
+          {
+            text: "Files",
+            link: "https://public.june8th.eu.org/",
+          },
+          {
+            text: "Email",
+            link: "https://mail.june8th.eu.org/",
+          },
+        ]
+      },
     ],
     logo: "/logo.png",
     sidebar: {
@@ -32,12 +42,12 @@ export default defineConfig({
         {
           text: "Introduction",
           base: "/docs/",
-          link: "."
+          link: ".",
         },
         {
           text: "RustDesk",
           base: "/docs/",
-          link: "rustdesk.md"
+          link: "rustdesk.md",
         },
         {
           text: "Docker",
@@ -55,10 +65,10 @@ export default defineConfig({
           ],
         },
       ],
-      "/cdu-uet/": [
+      "/work/": [
         {
-          text: "CDU - UET",
-          base: "/cdu-uet/",
+          text: "Work",
+          base: "/work/",
           link: ".",
           collapsed: true,
           items: [
@@ -66,31 +76,31 @@ export default defineConfig({
               text: "Resources",
               link: "https://public.june8th.eu.org/cdu/",
             },
-          ]
+          ],
         },
         {
           text: "Cisco",
-          base: "/cdu-uet/cisco/",
+          base: "/work/cisco/",
           link: ".",
           collapsed: false,
           items: [
             {
               text: "Administration",
-              link: "administration.md"
+              link: "administration.md",
             },
             {
               text: "Firmware",
-              link: "firmware.md"
+              link: "firmware.md",
             },
             {
               text: "Reset",
-              link: "reset.md"
-            }
+              link: "reset.md",
+            },
           ],
         },
         {
           text: "Ruckus",
-          base: "/cdu-uet/ruckus/",
+          base: "/work/ruckus/",
           link: ".",
           collapsed: false,
           items: [
@@ -106,7 +116,7 @@ export default defineConfig({
         },
         {
           text: "Utilities",
-          base: "/cdu-uet/utils/",
+          base: "/work/utils/",
           collapsed: true,
           items: [
             {
@@ -127,11 +137,10 @@ export default defineConfig({
     socialLinks: [
       { icon: "facebook", link: "https://www.facebook.com/june8th.dan" },
       { icon: "github", link: "https://github.com/im-yuuki/meomeo-docs" },
-      { icon: { svg: emailIcon }, link: "mailto:me@june8th.eu.org" },
     ],
     footer: {
-      message: "Released under The Unlicense license.",
-      copyright: "Copyright © 2026-present Yuuki"
+      message: "Released under MIT license.",
+      copyright: "Copyright © 2026-present Yuuki",
     },
   },
   lastUpdated: true,
@@ -139,6 +148,6 @@ export default defineConfig({
     math: true,
     image: {
       lazyLoading: true,
-    }
+    },
   },
 });

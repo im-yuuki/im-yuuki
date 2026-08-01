@@ -1,9 +1,12 @@
 {
-  "name": "docs",
-  "description": "various documentations for what I am working on :P",
-  "version": "1.0.0",
+  "name": "LunaDocs",
+  "description": "Personal homepage and documents",
+  "version": "2.0.0",
   "private": true,
   "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview",
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview"
