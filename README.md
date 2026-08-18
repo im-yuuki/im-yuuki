@@ -39,7 +39,7 @@
 ## ✨ Technologies I've learned or worked on
 <div align="center">
   <p><b><i>programming languages</i></b></p>
-  <img src="https://skillicons.dev/icons?i=c,cpp,rust,html,js,ts,java,swift,py,bash,md" height="40"/>   
+  <img src="https://skillicons.dev/icons?i=c,cpp,rust,html,js,ts,java,kotlin,swift,py,bash,md" height="40"/>   
   <br />
   
   <p><b><i>frameworks & databases</i></b></p>
