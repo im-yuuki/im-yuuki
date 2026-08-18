@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="467" height="220" viewBox="0 0 467 220" role="img" aria-label="GitHub stats card pending update">
+  <rect width="466" height="219" x="0.5" y="0.5" rx="4.5" fill="#1e1e2e" stroke="#e4e2e2" />
+  <text x="25" y="38" fill="#94e2d5" font-family="Segoe UI, Ubuntu, sans-serif" font-size="18" font-weight="600">Yuuki's GitHub Stats</text>
+  <text x="25" y="76" fill="#cdd6f4" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14">This card will be updated by GitHub Actions.</text>
+</svg>

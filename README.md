@@ -31,9 +31,9 @@
 
 ## ✈️ Statistics
 <div align="center">
-  <img height=210 src="https://github-readme-stats--im-yuuki.vercel.app/api?username=im-yuuki&show_icons=true&show=prs_merged_percentage&theme=catppuccin_mocha" />
+  <img height=210 src="./profile/stats.svg" />
   <img width="10" />
-  <img height=210 src="https://github-readme-stats--im-yuuki.vercel.app/api/top-langs/?username=im-yuuki&layout=compact&theme=catppuccin_mocha&langs_count=10&size_weight=0&count_weight=1&hide=html,css,cmake,batchfile" />
+  <img height=210 src="./profile/top-langs.svg" />
 </div>
 
 ## ✨ Technologies I've learned or worked on

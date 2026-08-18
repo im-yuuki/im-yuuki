@@ -33,7 +33,7 @@ export default defineConfig({
             text: "Email",
             link: "https://mail.june8th.eu.org/",
           },
-        ]
+        ],
       },
     ],
     logo: "/logo.png",
@@ -48,6 +48,11 @@ export default defineConfig({
           text: "RustDesk",
           base: "/docs/",
           link: "rustdesk.md",
+        },
+        {
+          text: "Building Chromium for iOS",
+          base: "/docs/",
+          link: "chromium-ios-build-guide.md",
         },
         {
           text: "Docker",
@@ -99,6 +104,11 @@ export default defineConfig({
           ],
         },
         {
+          text: "Proxmox iSCSI boot",
+          base: "/work/",
+          link: "proxmox-iscsiboot.md",
+        },
+        {
           text: "Ruckus",
           base: "/work/ruckus/",
           link: ".",
@@ -110,22 +120,7 @@ export default defineConfig({
             },
             {
               text: "ZoneDirector",
-              link: "zd1200.md",
-            },
-          ],
-        },
-        {
-          text: "Utilities",
-          base: "/work/utils/",
-          collapsed: true,
-          items: [
-            {
-              text: "iperf3",
-              link: "iperf3.md",
-            },
-            {
-              text: "nmap",
-              link: "nmap.md",
+              link: "zonedirector.md",
             },
           ],
         },

@@ -1,0 +1,61 @@
+name: Update README cards
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-readme-cards
+  cancel-in-progress: false
+
+jobs:
+  update-cards:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Cache pnpm store
+        uses: actions/cache@v4
+        with:
+          path: ~/.local/share/pnpm/store
+          key: ${{ runner.os }}-stats-action-pnpm-v2.1.3
+          restore-keys: |
+            ${{ runner.os }}-stats-action-pnpm-
+
+      - name: Create cards directory
+        run: mkdir -p profile
+
+      - name: Generate stats card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: "username=${{ github.repository_owner }}&show_icons=true&show=prs_merged_percentage&theme=catppuccin_mocha"
+          path: profile/stats.svg
+          core_version: 2.1.3
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate top languages card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: "username=${{ github.repository_owner }}&layout=compact&theme=catppuccin_mocha&langs_count=10&size_weight=0&count_weight=1&hide=html,css,cmake,batchfile"
+          path: profile/top-langs.svg
+          core_version: 2.1.3
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit updated cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/stats.svg profile/top-langs.svg
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m "Update README cards"
+          git push
