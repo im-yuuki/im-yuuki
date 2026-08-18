@@ -39,19 +39,23 @@
 ## ✨ Technologies I've learned or worked on
 <div align="center">
   <p><b><i>programming languages</i></b></p>
-  <img src="https://skillicons.dev/icons?i=c,cpp,rust,arduino,html,js,ts,java,swift,py,bash" height="40"/>   
+  <img src="https://skillicons.dev/icons?i=c,cpp,rust,html,js,ts,java,swift,py,bash,md" height="40"/>   
   <br />
   
   <p><b><i>frameworks & databases</i></b></p>
-  <img src="https://skillicons.dev/icons?i=react,vue,tailwind,selenium,spring,mysql,postgres,mongo,redis,elasticsearch,vite,ansible,nginx" height="40"/>   
+  <img src="https://skillicons.dev/icons?i=react,vue,nextjs,tailwind,selenium,spring,mysql,postgres,mongo,redis,elasticsearch,kafka" height="40"/>   
   <br />
   
   <p><b><i>IDEs & devtools</i></b></p>
   <img src="https://skillicons.dev/icons?i=androidstudio,vim,idea,pycharm,vscode,postman,git,figma" height="40"/>   
   <br />
   
-  <p><b><i>platforms & utilities</i></b></p>
-  <img src="https://skillicons.dev/icons?i=apple,debian,redhat,windows,raspberrypi,prometheus,firebase,githubactions,docker,kubernetes,cloudflare,stackoverflow" height="40"/>
+  <p><b><i>platforms</i></b></p>
+  <img src="https://skillicons.dev/icons?i=apple,debian,redhat,arch,windows,raspberrypi,arduino,aws,gcp,azure,cloudflare,openstack" height="40"/>
+  <br />
+
+  <p><b><i>utilities</i></b></p>
+  <img src="https://skillicons.dev/icons?i=githubactions,gitlab,nginx,prometheus,firebase,docker,kubernetes,ansible,terraform,stackoverflow" height="40"/>
   <br />
 </div>
 <br />
