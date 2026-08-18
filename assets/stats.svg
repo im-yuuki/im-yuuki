@@ -1,5 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="467" height="220" viewBox="0 0 467 220" role="img" aria-label="GitHub stats card pending update">
-  <rect width="466" height="219" x="0.5" y="0.5" rx="4.5" fill="#1e1e2e" stroke="#e4e2e2" />
-  <text x="25" y="38" fill="#94e2d5" font-family="Segoe UI, Ubuntu, sans-serif" font-size="18" font-weight="600">Yuuki's GitHub Stats</text>
-  <text x="25" y="76" fill="#cdd6f4" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14">This card will be updated by GitHub Actions.</text>
-</svg>
+
+    <svg width="576.5"  height="120" viewBox="0 0 576.5 120" fill="#1e1e2e" xmlns="http://www.w3.org/2000/svg">
+    <style>
+    .text { font: 600 16px 'Segoe UI', Ubuntu, Sans-Serif; fill: #94e2d5 }
+    .small { font: 600 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #cdd6f4 }
+    .gray { fill: #858585 }
+    </style>
+    <rect x="0.5" y="0.5" width="575.5" height="99%" rx="4.5" fill="#1e1e2e" stroke="#e4e2e2"/>
+    <text x="25" y="45" class="text">Something went wrong! file an issue at https://tinyurl.com/github-stats</text>
+    <text data-testid="message" x="25" y="55" class="text small">
+      <tspan x="25" dy="18">Resource not accessible by integration</tspan>
+      <tspan x="25" dy="18" class="gray">OK</tspan>
+    </text>
+    </svg>
+  
