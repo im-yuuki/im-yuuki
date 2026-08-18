@@ -31,9 +31,9 @@
 
 ## ✈️ Statistics
 <div align="center">
-  <img height=210 src="./profile/stats.svg" />
+  <img height=210 src="./assets/stats.svg" />
   <img width="10" />
-  <img height=210 src="./profile/top-langs.svg" />
+  <img height=210 src="./assets/top-langs.svg" />
 </div>
 
 ## ✨ Technologies I've learned or worked on
