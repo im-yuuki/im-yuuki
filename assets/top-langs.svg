@@ -222,7 +222,7 @@
           y="0"
           width="13.379999999999999"
           height="8"
-          fill="#F05138"
+          fill="#a52a22"
         />
       
       
@@ -292,9 +292,9 @@
     </g>
   </g><g transform="translate(0, 100)">
     <g class="stagger" style="animation-delay: 1050ms">
-      <circle cx="5" cy="6" r="5" fill="#F05138" />
+      <circle cx="5" cy="6" r="5" fill="#a52a22" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Swift 1.35%
+        Jinja 1.35%
       </text>
     </g>
   </g></g>
