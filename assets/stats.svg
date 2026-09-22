@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Yuuki's GitHub Stats, Rank: A-</title>
-        <desc id="descId">Total Stars Earned: 62, Total Commits  (last year) : 594, Total PRs: 74, Merged PRs Percentage: 90.54, Total Issues: 13, Contributed to (last year): 8</desc>
+        <desc id="descId">Total Stars Earned: 62, Total Commits  (last year) : 595, Total PRs: 74, Merged PRs Percentage: 90.54, Total Issues: 13, Contributed to (last year): 8</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 87.70163864056414;
+        stroke-dashoffset: 87.56859907974471;
       }
     }
   
@@ -177,7 +177,7 @@
         x="224.01"
         y="12.5"
         data-testid="commits"
-      >594</text>
+      >595</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
