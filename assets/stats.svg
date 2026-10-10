@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Yuuki's GitHub Stats, Rank: A-</title>
-        <desc id="descId">Total Stars Earned: 62, Total Commits  (last year) : 592, Total PRs: 74, Merged PRs Percentage: 90.54, Total Issues: 13, Contributed to (last year): 8</desc>
+        <desc id="descId">Total Stars Earned: 62, Total Commits  (last year) : 592, Total PRs: 75, Merged PRs Percentage: 89.33, Total Issues: 13, Contributed to (last year): 9</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 87.74650919791246;
+        stroke-dashoffset: 87.43640752498902;
       }
     }
   
@@ -192,7 +192,7 @@
         x="224.01"
         y="12.5"
         data-testid="prs"
-      >74</text>
+      >75</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
@@ -207,7 +207,7 @@
         x="224.01"
         y="12.5"
         data-testid="prs_merged_percentage"
-      >90.54 %</text>
+      >89.33 %</text>
     </g>
   </g><g transform="translate(0, 100)">
     <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
@@ -237,7 +237,7 @@
         x="224.01"
         y="12.5"
         data-testid="contribs"
-      >8</text>
+      >9</text>
     </g>
   </g>
     </svg>
