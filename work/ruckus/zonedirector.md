@@ -1,7 +1,5 @@
 # Ruckus ZoneDirector 1200 Access Point Controller
 
-##
-
 ## Khôi phục cài đặt gốc thiết bị
 Đối với model ZD1200, lưu ý việc khôi phục cài đặt gốc bằng cách nhấn giữ nút F/D ở mặt trước thiết bị, không phải nút Reset.
 <a><img src="/images/zd1200_front_panel.jpeg"/></a>

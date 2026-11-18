@@ -86,20 +86,47 @@ export default defineConfig({
         {
           text: "Cisco",
           base: "/work/cisco/",
-          link: ".",
           collapsed: false,
           items: [
             {
-              text: "Administration",
+              text: "Quản trị",
               link: "administration.md",
-            },
-            {
-              text: "Firmware",
-              link: "firmware.md",
             },
             {
               text: "Reset",
               link: "reset.md",
+            },
+          ],
+        },
+        {
+          text: "Extreme Networks ERS 3600 Series",
+          base: "/work/extreme-networks-ers-3600/",
+          link: ".",
+          collapsed: false,
+          items: [
+            {
+              text: "00: Tổng quan thiết bị",
+              link: "00-tong-quan-thiet-bi.md",
+            },
+            {
+              text: "01: Làm việc với hệ thống",
+              link: "01-lam-viec-voi-he-thong.md",
+            },
+            {
+              text: "02: Quản lý Interfaces",
+              link: "02-quan-ly-interfaces.md",
+            },
+            {
+              text: "03: Layer 2 Switching",
+              link: "03-l2-switching.md",
+            },
+            {
+              text: "04: Layer 3 Routing (cơ bản)",
+              link: "04-l3-routing-co-ban.md",
+            },
+            {
+              text: "05: Bảo mật, dịch vụ và quản trị từ xa",
+              link: "05-bao-mat-dich-vu-quan-tri-tu-xa.md",
             },
           ],
         },
@@ -111,13 +138,8 @@ export default defineConfig({
         {
           text: "Ruckus",
           base: "/work/ruckus/",
-          link: ".",
           collapsed: false,
           items: [
-            {
-              text: "Access Points",
-              link: "ap.md",
-            },
             {
               text: "ZoneDirector",
               link: "zonedirector.md",
@@ -131,7 +153,7 @@ export default defineConfig({
     },
     socialLinks: [
       { icon: "facebook", link: "https://www.facebook.com/june8th.dan" },
-      { icon: "github", link: "https://github.com/im-yuuki/meomeo-docs" },
+      { icon: "github", link: "https://github.com/im-yuuki/im-yuuki" },
     ],
     footer: {
       message: "Released under MIT license.",
