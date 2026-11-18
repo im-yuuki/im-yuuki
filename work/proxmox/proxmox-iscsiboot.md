@@ -78,7 +78,7 @@ apt install vim multipath-tools multipath-tools-boot
 ```
 
 `/etc/multipath.conf`
-```conf
+```
 defaults {
     user_friendly_names yes
     find_multipaths greedy
@@ -106,7 +106,7 @@ blacklist {
 ```
 
 `/etc/lvm/lvm.conf` (append to existing file)
-```conf
+```
 devices {
     multipath_component_detection = 1
 

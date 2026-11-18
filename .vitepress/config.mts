@@ -2,7 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "LunaDocs",
+  title: "im-yuuki.docs",
   description: "various documentations for what I'm working on!",
   head: [["link", { rel: "icon", href: "/favicon.ico" }]],
   locales: {
@@ -75,7 +75,6 @@ export default defineConfig({
           text: "Work",
           base: "/work/",
           link: ".",
-          collapsed: true,
           items: [
             {
               text: "Resources",
@@ -86,7 +85,7 @@ export default defineConfig({
         {
           text: "Cisco",
           base: "/work/cisco/",
-          collapsed: false,
+          collapsed: true,
           items: [
             {
               text: "Quản trị",
@@ -102,7 +101,7 @@ export default defineConfig({
           text: "Extreme Networks ERS 3600 Series",
           base: "/work/extreme-networks-ers-3600/",
           link: ".",
-          collapsed: false,
+          collapsed: true,
           items: [
             {
               text: "00: Tổng quan thiết bị",
@@ -131,14 +130,20 @@ export default defineConfig({
           ],
         },
         {
-          text: "Proxmox iSCSI boot",
-          base: "/work/",
-          link: "proxmox-iscsiboot.md",
+          text: "Proxmox",
+          base: "/work/proxmox/",
+          collapsed: true,
+          items: [
+            {
+              text: "iSCSI Boot",
+              link: "proxmox-iscsiboot.md",
+            },
+          ],
         },
         {
           text: "Ruckus",
           base: "/work/ruckus/",
-          collapsed: false,
+          collapsed: true,
           items: [
             {
               text: "ZoneDirector",
@@ -164,7 +169,7 @@ export default defineConfig({
   markdown: {
     math: true,
     image: {
-      lazyLoading: true,
+      lazyLoad: true,
     },
   },
 });
