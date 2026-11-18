@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "Hello!"
-  text: "LunaDocs"
+  text: "im-yuuki.docs"
   tagline: "welcome to my home on the internet!"
   image:
     src: /logo.png
